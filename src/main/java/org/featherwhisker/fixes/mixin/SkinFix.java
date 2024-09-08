@@ -8,7 +8,7 @@ import net.minecraft.client.network.AbstractClientPlayerEntity;
 import org.spongepowered.asm.mixin.Overwrite;
 
 @Mixin(AbstractClientPlayerEntity.class)
-public class AbstractClientPlayerEntityMixin {
+public class SkinFix {
 	/**
 	 * @author Featherwhisker
 	 * @reason Replaces old skin call with new one

@@ -1,0 +1,12 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "org.featherwhisker.fixes.mixin",
+    "compatibilityLevel": "JAVA_8",
+    "mixins": [
+        "MathHelperMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }, "client": ["AbstractClientPlayerEntityMixin"]
+}

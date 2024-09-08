@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "chloride",
+  "version": "${version}",
+  "name": "Chloride",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "Featherwhisker"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/legacytweaks/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "org.featherwhisker.fixes.main"
+    ]
+  },
+  "mixins": [
+    "chloride.mixins.json"
+  ],
+  "depends": {
+    "minecraft": "1.6.4"
+  }
+}
